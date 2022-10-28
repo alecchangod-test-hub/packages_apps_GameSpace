@@ -43,10 +43,11 @@
             android:summary="%s"
             android:title="@string/ringer_mode_title" />
 
-        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+        <com.xtended.support.preferences.SystemSettingSwitchPreference
             android:key="gamespace_suppress_fullscreen_intent"
             android:summary="@string/suppress_fullscreen_intent_summary"
-            android:title="@string/suppress_fullscreen_intent_title" />
+            android:title="@string/suppress_fullscreen_intent_title"
+            android:defaultValue="false" />
 
         <SwitchPreference
             android:defaultValue="false"
@@ -72,7 +73,7 @@
             android:key="gamespace_adb_disabled"
             android:title="@string/adb_disabled_title" />
 
-        <com.crdroid.settings.preferences.CustomSeekBarPreference
+        <com.xtended.support.preferences.CustomSeekBarPreference
             android:key="gamespace_menu_opacity"
             android:title="@string/gamespace_menu_opacity_title"
             android:defaultValue="100"
